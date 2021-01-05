@@ -1,0 +1,84 @@
+
+Project Title: Journal Shop (Web Application).
+It is a web application for a journal shop to list the available journals, their informations such as price,color,material
+is made of by quering  data from a database (SQL database server) using ASP.NET CORE. 
+The app allows for adding of journals and their informations as well well also making updates such as deleting, editing 
+and vewing the details of each journals available.
+
+This was designed with Microsoft Visual Studio (2019)
+
+
+
+                   Documentation of project(AGILE)
+
+Title:
+    Add a controller to the project
+Description: 
+    Create the  Controller for the application JournalsController.cs
+    in  "JournalShop\JournalShop\Controllers".
+Assigned-Date:
+    2020-06-01
+
+Title:
+   Creating model classes for the project
+Description: 
+    Using the Entity Framework Core to work with database, and creating ORM (object-relational mapping) classes 
+    that define properties of data that will be stored in the database in "JournalShop\JournalShop\Controllers\JournalsController.cs"
+Assigned-Date:
+    2020-06-1
+
+
+Title:
+    Add database context
+Description: 
+    Create a database context to coordinate the CRUD (Create, Read, Update, Delete) functionalities
+    for the Journal model in "JournalShop\JournalShop\Data\JournalShopContext.cs"
+Using "Install-Package Microsoft.EntityFrameworkCore.SqlServer" in Microsoft VisualStudio
+Assigned-Date:
+    2020-06-2
+
+
+Title:
+    Create view for our Controllers
+Description: 
+    Create the view for the Index Controller in "JournalShop\JournalShop\Views\Journals\Index.cshtml"
+    using the Razor view files to cleanly encapsulate the process of generating HTML responses to a client.
+Assigned-Date:
+    2020-06-02
+
+
+
+Title:
+    scaffold Journal pages
+Description: 
+    Use the scaffolding tool to produce Create, Read, Update, and Delete (CRUD) pages for the Journal model.
+This was done by adding " MVC Controller with views, using Entity Framework ".
+Assigned-Date:
+    2020-06-3 
+
+
+Title:
+   Write a test(UnitTest) for Journal model
+Description: 
+    The fields will be test(each field)
+   The test was done using MSTest Project(.Net Core).
+Assigned-Date:
+    2020-06-3 
+
+
+Title:
+  Debugging and running to check all  CRUD functionalities ( Working Appropriately)
+Description: 
+     Checking all controllers and views to make sure the app runs well and functioning as it should.
+Assigned-Date:
+    2020-06-3
+
+
+   
+
+    
+
+
+
+
+
